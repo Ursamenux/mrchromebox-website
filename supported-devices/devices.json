@@ -1428,7 +1428,9 @@
                 "device": [
                     "Acer Chromebook 511 [C733/C734]"
                 ],
-                "boardname": "MAGLITH"
+                "boardname": "MAGLITH",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Maglith_wp.jpg\" class=\"internal\" title=\"Maglith wp.jpg\" target=\"_blank\">jumper</a>"
+            
             },
             {
                 "device": [
