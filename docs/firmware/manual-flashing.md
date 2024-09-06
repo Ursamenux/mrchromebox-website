@@ -7,7 +7,7 @@ Flashing your own firmware has the potential to brick your device. Do not do thi
 The steps below assume you are flashing an image named `coreboot.rom`; substitute it as necessary.
 
 1. Download flashrom, decompress, and ensure it is executable:
-   * `wget -o flashrom.tar.gz https://mrchromebox.tech/files/util/flashrom-libpci38.tar.gz`
+   * `wget -o flashrom.tar.gz https://mrchromebox.tech/files/util/flashrom_ups_libpci37_20240418.tar.gz`
    * `tar zxf flashrom.tar.gz`
    * `chmod +x flashrom`
 2. Flash your custom ROM
