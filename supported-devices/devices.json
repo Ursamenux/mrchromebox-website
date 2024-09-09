@@ -1637,19 +1637,22 @@
                 "device": [
                     "Acer Chromebook Plus 515 (CB515-2H, CB515-2HT)"
                 ],
-                "boardname": "OMNIGUL"
+                "boardname": "OMNIGUL",
+				"wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>"
             },
             {
                 "device": [
                     "Acer Chromebook Plus Enterprise 515"
                 ],
-                "boardname": "ONMIKNIGHT"
+                "boardname": "ONMIKNIGHT",
+				"wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>"
             },
             {
                 "device": [
                     "Acer Chromebook 516 GE [CBG516-1H]"
                 ],
-                "boardname": "OSIRIS"
+                "boardname": "OSIRIS",
+				"wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>"
             },
             {
                 "device": [
