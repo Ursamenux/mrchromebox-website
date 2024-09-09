@@ -2,7 +2,26 @@
 
 
 
-## MrChromebox-2405.1 Point Release
+
+## MrChromebox-2408 Release
+
+(2024.09.08)
+
+This new release is based on the coreboot 24.08 tag (August 2024) and includes the following changes:
+
+ * Rebased on coreboot tag 24.08
+ * New edk2 branch (uefipayload_2408), rebased on upstream edk2-stable202408 tag
+ * Adjusted touchscreen init timing params for JINLON
+ * Minor improvements to EC software sync code
+ * Added automatic fan control for 7th/8th-gen Chromeboxes (FIZZ board)
+ * Fixed fan control on 10th-gen Chromeboxes
+ * Added ACPI driver attachment for SPI CR50 TPMs to use coolstar's Windows drivers
+ * Added ability to configure (when compiling) UMA allocation for Intel Sandy/Ivybridge and AMD Stoneyridge and Picasso devices
+ * Fixed display init on some boards (LASER14, MARASOV, OMNIGUL, KINOX)
+ * AMD Picasso devices no longer use vboot
+ 
+ 
+ ## MrChromebox-2405.1 Point Release
 
 (2024.07.10)
 
