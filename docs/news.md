@@ -3,7 +3,19 @@
 
 
 
-## MrChromebox-2408 Release
+## Some small MrChromebox-2408 Updates
+
+(2024.09.11)
+
+As with any release, some small issues sneak past testing, so pushing a few fixes:
+
+ * Fix presence of some USB ports on TGL Chromebooks
+ * Fix ACPI battery code which prevented booting Windows on SNB/IVB/HSW/BDW/BYT/BSW Chromebooks
+
+Updated boards will have a firmware version of MrChromebox-2408-1 or MrChromebox-2408-2 and a build date of 2024/09/10 or 2024/09/11.
+ 
+ 
+ ## MrChromebox-2408 Release
 
 (2024.09.08)
 
