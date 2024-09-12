@@ -1515,13 +1515,15 @@
                 "device": [
                     "Asus Chromebook CR1100CKA"
                 ],
-                "boardname": "STORO"
+                "boardname": "STORO",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/storo_wp_jumper.jpg\" class=\"internal\" title=\"storo_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "Asus Chromebook Flip CR1100FKA"
                 ],
-                "boardname": "STORO360"
+                "boardname": "STORO360",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/storo_wp_jumper.jpg\" class=\"internal\" title=\"storo_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
