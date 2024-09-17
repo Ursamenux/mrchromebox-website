@@ -3,7 +3,18 @@
 
 
 
-## Some small MrChromebox-2408 Updates
+## MrChromebox-2408.1 Release
+
+(2024.09.14)
+
+Just a quick rollup to capture the previous hotfixes:
+
+ * Fix presence of some USB ports on TGL Chromebooks
+ * Fix ACPI battery code which prevented booting Windows on SNB/IVB/HSW/BDW/BYT/BSW Chromebooks
+ * Update JSL devices with fixed images, which were rolled back after an issue was found in the 2408 release
+ 
+ 
+ ## Some small MrChromebox-2408 Updates
 
 (2024.09.11)
 
