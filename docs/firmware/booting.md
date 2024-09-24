@@ -12,7 +12,7 @@ The edk2 boot splash with the [coreboot logo](https://www.coreboot.org/Logo) (a 
 
 Press `[ESC]` when the prompt is shown to enter the boot options/settings menu, where you can select your boot device.
 
-If you want to customize  the boot logo, you'll need to modify and build your own firmware image -- see [Compiling Your Own Firmware](compiling.md)
+If you want to customize  the boot logo, you'll need to modify and build your own firmware image -- see [Compiling Your Own Firmware](/docs/support/compiling.md)
 
 
 ## edk2 Main Menu
