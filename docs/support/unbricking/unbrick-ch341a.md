@@ -116,21 +116,22 @@ Now that everything is prepped, time to flash the device. To be thorough, we'll 
 
 1. Flash the firmware:
     * For Intel-based ChromeOS devices, flash using
-      * `sudo flashrom -p raiden_debug_spi:target=AP -w <filename> --ifd -i bios`
+      * `sudo flashrom -p ch341a_spi -w <filename> --ifd -i bios`
     * For all other devices, use
-      * `sudo flashrom -p raiden_debug_spi:target=AP -w <filename>`
+      * `sudo flashrom -p ch341a_spi -w <filename>`
 
     Where `<filename\>` is the name of your backup file, UEFI firmware file, or shellball firmware file. This will usually take 30s-90s to complete; flashrom will first read the flash chip, determine which sectors differ, erase those sectors, write the new data, then verify the data written.
 
 2. Verify the firmware
 
-Even though flashrom does this as part of the write process, verifying the entire flash chip is quick and an easy way to ensure everything went as it should:
+    Even though flashrom does this as part of the write process, verifying the entire flash chip is quick and an easy way to ensure everything went as it should:
 
     * As before, if flashing an Intel-based device, use
       * `sudo flashrom -p ch341a_spi -v <filename> --ifd -i bios`
     * Otherwise, use
       * `sudo flashrom -p ch341a_spi -v <filename>`
-      * Using the same filename as before. If the verification passes, then disconnect the CH341a from the host machine, and then remove the chip clip.
+
+    Using the same filename as before. If the verification passes, then disconnect the CH341a from the host machine, and then remove the chip clip.
 
 ### Clean Up
 
