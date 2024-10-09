@@ -9,16 +9,16 @@ These instructions do not apply to any device which is locked/managed. Enterpris
 :::
 
 * A USB-C debug cable ([aka Suzy-Q cable](https://www.sparkfun.com/products/retired/14746))
-* The device must have the CCD flags factory reset (as per instructions to [Disable write protect with a SuzyQable](/docs/firmware/wp/disabling.md)), or the battery must be unplugged/disconnected from the mainboard.
+* The device must have the CCD flags factory reset (as per instructions to [Disable write protect with a SuzyQable](/docs/firmware/wp/disabling.html#using-closed-case-debugging-ccd-using-a-suzyqable)), or the battery must be unplugged/disconnected from the mainboard.
 * Another device running Linux, preferably a current Debian/Ubuntu-based distro
 
 ## Hardware Disassembly
 
-As above, this is only needed if you failed to factory reset the CCD flags if you didnt follow the guide to [Disable write protect with a SuzyQable](../firmware/suzyq). While this is somewhat device-specific, the main points are the same:
+As above, this is only needed if you failed to factory reset the CCD flags if you didnt follow the guide to [Disable write protect with a SuzyQable](/docs/firmware/wp/disabling.html#using-closed-case-debugging-ccd-using-a-suzyqable). While this is somewhat device-specific, the main points are the same:
 
 * Disconnect all external power
 * Remove bottom cover (screws are often located under rubber feet or strips)
-  - Some Chromebooks open up through the back and some through the keyboard, and as mentioned in [Disabling write protect via Battery](../firmware/battery.html). On keyboard, you have to pry it out and remove a ribbon wire under the keyboard.
+  - Some Chromebooks open up through the back and some through the keyboard, and as mentioned in [Disabling write protect via Battery](/docs/firmware/wp/disabling.html#disconnecting-the-battery). On keyboard, you have to pry it out and remove a ribbon wire under the keyboard.
 * Disconnect the internal battery
 
 ## Prepping to Flash
@@ -60,10 +60,10 @@ Let's get to it:
        * `wget https://mrchromebox.tech/files/firmware/shellball/shellball.edgar.bin`
 
 ::: tip
-If you're not sure which file to use for your device / don't know your device's board name, you can reference [the supported devices page](supported-device.html).
+If you're not sure which file to use for your device / don't know your device's board name, you can reference [the supported devices page](/docs/supported-devices.html).
 :::
 
-### Persisting the board's Vital Product Data (VPD)
+### Persisting the board's Vital Product Data (VPD) and Hardware ID (HWID)
 
 The firmware in all ChromeOS devices contains a section (RO_VPD) which stores board-specific data, like the serial number, localization settings, and on many devices which have an Ethernet port, the LAN MAC address as well. When flashing via the Firmware Utility Script, the script will automatically extract this from the running firmware and inject it into the firmware to be flashed, so the device serial, LAN MAC address, etc are all maintained. Without this, the device will use a default/generic LAN MAC address set by coreboot. While not ideal, this is only really an issue if two or more of the same device are on the same LAN segment (or you're statically assigning IP addresses based on MAC). But for completeness, if flashing the UEFI firmware or shellball ROM, we'll extract the VPD (either from the board itself or a backup made by the script) and inject it into the firmware to be flashed.
 
@@ -71,16 +71,22 @@ The firmware in all ChromeOS devices contains a section (RO_VPD) which stores bo
 You don't need to do this if flashing a stock firmware backup created by the Firmware Utility Script; that image already contains the VPD.
 :::
 
-1. For both the options below, we'll need to use the cbfstool (coreboot filesystem) binary, so let's download/extract that:
-   * `wget https://mrchromebox.tech/files/util/cbfstool.tar.gz && tar -zxf cbfstool.tar.gz`
-   * Option 1: Extract VPD from the firmware on device
-     * `sudo flashrom -p raiden_debug_spi:target=AP -r badflash.rom`
-     * `./cbfstool badflash.rom read -r RO_VPD -f vpd.bin`
-   * Option 2: Extract VPD from stock firmware backup created by Firmware Utility Script (this assumes the file has been copied into working directory)
-     * `./cbfstool stock-firmware-<devicename>-<date>.rom read -r RO_VPD -f vpd.bin`
-2. Then we inject the VPD into the firmware image to be flashed.
-     * `./cbfstool <Shellball ROM/UEFI Full ROM filename> write -r RO_VPD -f vpd.bin`
-
+1. For both the options below, we'll need to use the gbb_utility and cbfstool (coreboot filesystem) binaries, so let's download/extract those:
+      * `wget https://mrchromebox.tech/files/util/cbfstool.tar.gz && tar -zxf cbfstool.tar.gz`
+      * `wget https://mrchromebox.tech/files/util/gbb_utility.tar.gz && tar -zxf gbb_utility.tar.gz`
+    * Option 1: Extract VPD and HWID from the firmware on device
+      * `sudo flashrom -p raiden_debug_spi:target=AP -r badflash.rom`
+      * `./cbfstool badflash.rom read -r RO_VPD -f vpd.bin`
+      * `./gbb_utility badflash.rom --get --hwid | sed 's/[^ ]* //' > hwid.txt`
+    * Option 2: Extract VPD and HWID from stock firmware backup created by Firmware Utility Script (this assumes the file has been copied into working directory)
+      * `./cbfstool stock-firmware-<devicename>-<date>.rom read -r RO_VPD -f vpd.bin`
+      * `./gbb_utility stock-firmware-<devicename>-<date>.rom --get --hwid | sed 's/[^ ]* //' > hwid.txt`
+2. Then we inject the VPD and HWID into the firmware image to be flashed.
+    * `./cbfstool <Shellball ROM/UEFI Full ROM filename> write -r RO_VPD -f vpd.bin`
+    * For UEFI Full ROM run 
+      * `./cbfstool <UEFI Full ROM filename> add -n hwid -f hwid.txt -t raw`
+    * For Shellball run
+      * `./gbb_utility <Shellball ROM> --set --hwid="$(cat hwid.txt)"`
 Now the firmware image is ready to be flashed, and will maintain the device's unique serial, LAN MAC address, etc.
 
 ## Flashing Your Device
