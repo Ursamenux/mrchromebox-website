@@ -90,7 +90,7 @@ So let's get to it:
 If you're not sure which file to use for your device / don't know your device's board name, you can reference [the supported devices page](/docs/supported-devices.html).
 :::
 
-### Persisting the board's Vital Product Data (VPD)
+### Persisting the board's Vital Product Data (VPD) and Hardware ID (HWID)
 
 The firmware in all ChromeOS devices contains a section (RO_VPD) which stores board-specific data, like the serial number, localization settings, and on many devices which have an Ethernet port, the LAN MAC address as well. When flashing via the Firmware Utility Script, the script will automatically extract this from the running firmware and inject it into the firmware to be flashed, so the device serial, LAN MAC address, etc are all maintained. Without this, the device will use a default/generic LAN MAC address set by coreboot. While not ideal, this is only really an issue if two or more of the same device are on the same LAN segment (or you're statically assigning IP addresses based on MAC). But for completeness, if flashing the UEFI firmware or shellball ROM, we'll extract the VPD (either from the board itself or a backup made by the script) and inject it into the firmware to be flashed.
 
@@ -104,10 +104,10 @@ You don't need to do this if flashing a stock firmware backup created by the Fir
     * Option 1: Extract VPD and HWID from the firmware on device
       * `sudo flashrom -p ch341a_spi -r badflash.rom`
       * `./cbfstool badflash.rom read -r RO_VPD -f vpd.bin`
-      * `./gbb_utility badflash.rom --get --hwid | sed 's/[^ ]* //' > hwid.txt`
+      * `./gbb_utility badflash.rom --get --hwid | sed 's/^hardware_id: //' > hwid.txt`
     * Option 2: Extract VPD and HWID from stock firmware backup created by Firmware Utility Script (this assumes the file has been copied into working directory)
       * `./cbfstool stock-firmware-<devicename>-<date>.rom read -r RO_VPD -f vpd.bin`
-      * `./gbb_utility stock-firmware-<devicename>-<date>.rom --get --hwid | sed 's/[^ ]* //' > hwid.txt`
+      * `./gbb_utility stock-firmware-<devicename>-<date>.rom --get --hwid | sed 's/^hardware_id: //' > hwid.txt`
 2. Then we inject the VPD and HWID into the firmware image to be flashed.
     * `./cbfstool <Shellball ROM/UEFI Full ROM filename> write -r RO_VPD -f vpd.bin`
     * For UEFI Full ROM run 
