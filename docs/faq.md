@@ -158,3 +158,10 @@ Then re-run the script.
 ### Why won't the Firmware Utility Script allow me to restore the stock firmware on a ChromeOS device which has reached AUE/EOL?
 
 * Because in most cases, there is no point in going back to an old, insecure, potentially broken version of ChromeOS when better alternatives exist. If you're planning to sell the device, the worst thing you can do is sell it with an OS that isn't getting updates anymore.
+
+
+### Where can I find a SuzyQ cable (SuzyQable)?
+
+* They used to be available from Sparkfun, but aren't any longer. A young entrepeneur has made some cables/adapters available and sells them on ebay: https://www.ebay.com/itm/335130747039?var=544363912167
+
+There are also schematics online which show how to make a cable using a USB-C cable and a breakout board, along with a few resistors.
