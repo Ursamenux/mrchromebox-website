@@ -1211,7 +1211,7 @@
         ]
     },
     "Intel JasperLake": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper?",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -1837,7 +1837,9 @@
                 "device": [
                     "HP Chromebook Plus 14a"
                 ],
-                "boardname": "YAHIKO"
+                "boardname": "YAHIKO",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50</a>, <a href=\"/images/wp/yahiko_wp_jumper.jpg\" class=\"internal\" title=\"yahiko_wp\" target=\"_blank\">jumper</a>"
+            
             },
             {
                 "device": [
@@ -2024,7 +2026,8 @@
                 "device": [
                     "Asus Chromebook CM34 Flip"
                 ],
-                "boardname": "FROSTFLOW"
+                "boardname": "FROSTFLOW",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50</a>, <a href=\"/images/wp/frostflow_wp_jumper.jpg\" class=\"internal\" title=\"frostflow_wp\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
