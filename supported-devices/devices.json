@@ -1501,7 +1501,8 @@
                 "device": [
                     "Samsung Galaxy Chromebook Go"
                 ],
-                "boardname": "SASUKE"
+                "boardname": "SASUKE",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/sasuke_wp_jumper.jpg\" class=\"internal\" title=\"sasuke_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
