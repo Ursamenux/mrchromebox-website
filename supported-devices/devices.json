@@ -423,7 +423,7 @@
         ]
     },
     "Intel Apollolake": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -574,7 +574,7 @@
         ]
     },
     "Intel Kabylake / Amberlake": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -613,7 +613,7 @@
                     "Meet Compute System - Series One (Lenovo)"
                 ],
                 "boardname": "ENDEAVOUR",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Excelsior_wp.jpg\" class=\"internal\" title=\"Excelsior wp.jpg\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Excelsior_wp.jpg\" class=\"internal\" title=\"Excelsior wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -626,7 +626,7 @@
                     "Asus Google Meet kit (KBL)"
                 ],
                 "boardname": "EXCELSIOR",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Excelsior_wp.jpg\" class=\"internal\" title=\"Excelsior wp.jpg\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Excelsior_wp.jpg\" class=\"internal\" title=\"Excelsior wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -634,21 +634,21 @@
                     "Newline Chromebox A10"
                 ],
                 "boardname": "JAX",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
                     "Acer Chromebase 24I2"
                 ],
                 "boardname": "KARMA",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, screw"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, screw"
             },
             {
                 "device": [
                     "HP Chromebox G2"
                 ],
                 "boardname": "KENCH",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -685,7 +685,7 @@
                     "Acer Chromebox CXI3"
                 ],
                 "boardname": "SION",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -710,7 +710,7 @@
                     "Asus Chromebox 3 (CN65)"
                 ],
                 "boardname": "TEEMO",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -726,12 +726,12 @@
                     "ViewSonic NMP660 Chromebox"
                 ],
                 "boardname": "WUKONG",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
             }
         ]
     },
     "Intel Geminilake": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -983,7 +983,7 @@
         ]
     },
     "Intel Cometlake": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>",
         "default_rwLegacy": false,
         "default_fullrom": true,
         "devices": [
@@ -999,7 +999,7 @@
                     "CTL Meet Compute System (Intel 10th Gen)"
                 ],
                 "boardname": "AMBASSADOR",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, jumper"
             },
             {
                 "device": [
@@ -1007,7 +1007,7 @@
                 ],
                 "boardname": "DOOLY",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, jumper"
             },
             {
                 "device": [
@@ -1041,7 +1041,7 @@
                 ],
                 "boardname": "DUFFY",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Duffy_wp_jumper.png\" class=\"internal\" title=\"Duffy wp jumper.png\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Duffy_wp_jumper.png\" class=\"internal\" title=\"Duffy wp jumper.png\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1049,14 +1049,14 @@
                 ],
                 "boardname": "FAFFY",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, jumper"
             },
             {
                 "device": [
                     "Meet Compute System - Series One (Intel 10th Gen)"
                 ],
                 "boardname": "GENESIS",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, jumper"
             },
             {
                 "device": [
@@ -1077,7 +1077,7 @@
                 ],
                 "boardname": "KAISA",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Kaisa_wp.jpg\" class=\"internal\" title=\"Kaisa_wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Kaisa_wp.jpg\" class=\"internal\" title=\"Kaisa_wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1109,7 +1109,7 @@
                 ],
                 "boardname": "NOIBAT",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Noibat_wp.png\" class=\"internal\" title=\"Noibat wp.png\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Noibat_wp.png\" class=\"internal\" title=\"Noibat wp.png\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1119,12 +1119,12 @@
                 ],
                 "boardname": "WYVERN",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Wyvern_WP_jumper.png\" class=\"internal\" title=\"Wyvern WP jumper.png\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Wyvern_WP_jumper.png\" class=\"internal\" title=\"Wyvern WP jumper.png\" target=\"_blank\">jumper</a>"
             }
         ]
     },
     "Intel TigerLake": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -1211,7 +1211,7 @@
         ]
     },
     "Intel JasperLake": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper?",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, jumper?",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -1240,21 +1240,21 @@
                     "Lenovo 100e Chromebook Gen 3"
                 ],
                 "boardname": "BOOKEM",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "Lenovo 500e Chromebook Gen 3"
                 ],
                 "boardname": "BOTEN",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "Lenovo Flex 3i-11 / IdeaPad Flex 3i Chromebook"
                 ],
                 "boardname": "BOTENFLEX",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1267,7 +1267,7 @@
                     "Dell Chromebook 3110"
                 ],
                 "boardname": "CRET",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Cret_jumper.jpg\" class=\"internal\" title=\"Cret_jumper.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Cret_jumper.jpg\" class=\"internal\" title=\"Cret_jumper.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1293,28 +1293,28 @@
                     "HP Fortis x360 11 G3 J Chromebook"
                 ],
                 "boardname": "DRAWCIA",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Drawcia_wp.jpg\" class=\"internal\" title=\"Drawcia wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Drawcia_wp.jpg\" class=\"internal\" title=\"Drawcia wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "HP Chromebook 11 G9 EE"
                 ],
                 "boardname": "DRAWLAT",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Drawlat_wp.jpg\" class=\"internal\" title=\"Drawlat wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Drawlat_wp.jpg\" class=\"internal\" title=\"Drawlat wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "HP Chromebook 14 G7"
                 ],
                 "boardname": "DRAWMAN",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "HP Fortis 14 G10 Chromebook"
                 ],
                 "boardname": "DRAWPER",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1388,14 +1388,14 @@
                     "HP Chromebook 15a-na0"
                 ],
                 "boardname": "LANDRID",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Landrid_wp.jpg\" class=\"internal\" title=\"Landrid wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Landrid_wp.jpg\" class=\"internal\" title=\"Landrid wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "HP Chromebook 14a-na1"
                 ],
                 "boardname": "LANTIS",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Lantis_wp.jpg\" class=\"internal\" title=\"Lantis wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Lantis_wp.jpg\" class=\"internal\" title=\"Lantis wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1420,14 +1420,14 @@
                     "Acer Chromebook Spin 512 [R853TA/R853TNA]"
                 ],
                 "boardname": "MAGLIA",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Maglia_wp.jpg\" class=\"internal\" title=\"Maglia wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Maglia_wp.jpg\" class=\"internal\" title=\"Maglia wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "Acer Chromebook 511 [C733/C734]"
                 ],
                 "boardname": "MAGLITH",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Maglith_wp.jpg\" class=\"internal\" title=\"Maglith wp.jpg\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Maglith_wp.jpg\" class=\"internal\" title=\"Maglith wp.jpg\" target=\"_blank\">jumper</a>"
             
             },
             {
@@ -1435,7 +1435,7 @@
                     "Acer Chromebook 315 [CB315-4H/4HT]"
                 ],
                 "boardname": "MAGMA",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/magma_wp_jumper.jpg\" class=\"internal\" title=\"magma_wp_jumper\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/magma_wp_jumper.jpg\" class=\"internal\" title=\"magma_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1455,14 +1455,14 @@
                     "Acer Chromebook 317 [CB317-1H]"
                 ],
                 "boardname": "MAGPIE",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "NEC Chromebook Y3"
                 ],
                 "boardname": "METAKNIGHT",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1502,7 +1502,7 @@
                     "Samsung Galaxy Chromebook Go"
                 ],
                 "boardname": "SASUKE",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/sasuke_wp_jumper.jpg\" class=\"internal\" title=\"sasuke_wp_jumper\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/sasuke_wp_jumper.jpg\" class=\"internal\" title=\"sasuke_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1515,14 +1515,14 @@
                     "Asus Chromebook CR1100CKA"
                 ],
                 "boardname": "STORO",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/storo_wp_jumper.jpg\" class=\"internal\" title=\"storo_wp_jumper\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/storo_wp_jumper.jpg\" class=\"internal\" title=\"storo_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "Asus Chromebook Flip CR1100FKA"
                 ],
                 "boardname": "STORO360",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/storo_wp_jumper.jpg\" class=\"internal\" title=\"storo_wp_jumper\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/storo_wp_jumper.jpg\" class=\"internal\" title=\"storo_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1533,7 +1533,7 @@
         ]
     },
     "Intel Alderlake": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -1639,14 +1639,14 @@
                     "Acer Chromebook Plus 515 (CB515-2H, CB515-2HT)"
                 ],
                 "boardname": "OMNIGUL",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>"
             },
             {
                 "device": [
                     "Acer Chromebook Plus Enterprise 515 (CBE595-2/CBE595-2T)"
                 ],
                 "boardname": "ONMIKNIGHT",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>"
             },
             {
                 "device": [
@@ -1654,7 +1654,7 @@
                     "Acer Chromebook Plus 516 GE [CBG516-2H]"
                 ],
                 "boardname": "OSIRIS",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>"
             },
             {
                 "device": [
@@ -1707,7 +1707,7 @@
         ]
     },
     "Intel Alderlake-N": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50</a>",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50 (SuzyQ)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -1839,7 +1839,7 @@
                     "HP Chromebook Plus 14a"
                 ],
                 "boardname": "YAHIKO",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50</a>, <a href=\"/images/wp/yahiko_wp_jumper.jpg\" class=\"internal\" title=\"yahiko_wp\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50 (SuzyQ)</a>, <a href=\"/images/wp/yahiko_wp_jumper.jpg\" class=\"internal\" title=\"yahiko_wp\" target=\"_blank\">jumper</a>"
             
             },
             {
@@ -1869,7 +1869,7 @@
         ]
     },
     "AMD Stoneyridge": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -1925,7 +1925,7 @@
         ]
     },
     "AMD Picasso": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -1994,7 +1994,7 @@
         ]
     },
     "AMD Cezanne": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, jumper",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -2013,7 +2013,7 @@
         ]
     },
     "AMD Mendocino": {
-        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50</a>, jumper",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50 (SuzyQ)</a>, jumper",
         "default_rwLegacy": true,
         "default_fullrom": true,
         "devices": [
@@ -2028,7 +2028,7 @@
                     "Asus Chromebook CM34 Flip"
                 ],
                 "boardname": "FROSTFLOW",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50</a>, <a href=\"/images/wp/frostflow_wp_jumper.jpg\" class=\"internal\" title=\"frostflow_wp\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50/Ti50 (SuzyQ)</a>, <a href=\"/images/wp/frostflow_wp_jumper.jpg\" class=\"internal\" title=\"frostflow_wp\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
