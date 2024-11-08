@@ -1408,13 +1408,15 @@
                 "device": [
                     "Acer Chromebook Spin 314 [CP314-1H, CP314-1HN]"
                 ],
-                "boardname": "MAGISTER"
+                "boardname": "MAGISTER",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Maglia_wp.jpg\" class=\"internal\" title=\"Maglia wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "Acer Chromebook 512 [C852]"
                 ],
-                "boardname": "MAGLET"
+                "boardname": "MAGLET",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Maglia_wp.jpg\" class=\"internal\" title=\"Maglia wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1443,13 +1445,15 @@
                     "Acer Chromebook 314 [CB314-3H/3HT, C934/C934T]",
                     "Packard Bell Chromebook 314"
                 ],
-                "boardname": "MAGNETO"
+                "boardname": "MAGNETO",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Maglia_wp.jpg\" class=\"internal\" title=\"Maglia wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "Acer Chromebook Spin 511 [R753T]"
                 ],
-                "boardname": "MAGOLOR"
+                "boardname": "MAGOLOR",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Maglia_wp.jpg\" class=\"internal\" title=\"Maglia wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
