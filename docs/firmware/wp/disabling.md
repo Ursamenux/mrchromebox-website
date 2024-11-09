@@ -49,7 +49,9 @@ For devices which use a jumper pair for WP, a connection must be made between th
 * Locate the WP jumper (the [Supported Devices](/docs/supported-devices.md) can assist here)
   * If the jumper holes are open, you can sometimes use a paperclip to connect them
   * If the jumper holes are filled, the easiest way to connect them is using a solder bridge
-* Reassemble the and boot device
+  * In a pinch, you may be able to connect them using a standard graphite pencil
+* Reconnect the internal battery connector
+* Reassemble and boot the device
 
 
 ## Using Closed-Case Debugging (CCD) / Using a SuzyQable
