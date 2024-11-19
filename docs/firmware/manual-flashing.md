@@ -23,7 +23,7 @@ The steps below assume you are flashing an image named `coreboot.rom`; substitut
          * `./cbfstool backup.rom extract -n hwid -f hwid.txt`
        * if it is stock firmware then run
          * `./gbb_utility backup.rom --get --hwid > hwid.txt`
-       * `./cbfstool coreboot.rom add -n hwid -f hwid.txt`
+       * `./cbfstool coreboot.rom add -n hwid -f hwid.txt -t raw`
    * Flash your custom firmware:
        * AMD devices: `sudo ./flashrom -p internal -w coreboot.rom`
        * Intel devices: `sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom`
