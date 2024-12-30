@@ -1507,13 +1507,14 @@
                     "Samsung Galaxy Chromebook Go"
                 ],
                 "boardname": "SASUKE",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/sasuke_wp_jumper.jpg\" class=\"internal\" title=\"sasuke_wp_jumper\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, jumper)</a>, <a href=\"/images/wp/sasuke_wp_jumper.jpg\" class=\"internal\" title=\"sasuke_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "SamsungGalaxy Chromebook Go 11"
                 ],
-                "boardname": "SASUKETTE"
+                "boardname": "SASUKETTE",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, jumper)</a>, <a href=\"/images/wp/sasukette_wp_jumper.png\" class=\"internal\" title=\"sasukette_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
