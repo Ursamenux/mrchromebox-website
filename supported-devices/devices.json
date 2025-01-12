@@ -1321,43 +1321,50 @@
                 "device": [
                     "Asus Chromebook CX1500CKA"
                 ],
-                "boardname": "GALITH"
+                "boardname": "GALITH",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>"
             },
             {
                 "device": [
                     "Asus Chromebook CX1500FKA"
                 ],
-                "boardname": "GALITH360"
+                "boardname": "GALITH360",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>"
             },
             {
                 "device": [
                     "Asus Chromebook CX1700CKA"
                 ],
-                "boardname": "GALLOP"
+                "boardname": "GALLOP",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>"
             },
             {
                 "device": [
                     "Asus Chromebook CX1 CX1102"
                 ],
-                "boardname": "GALNAT"
+                "boardname": "GALNAT",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>"
             },
             {
                 "device": [
                     "Asus Chromebook Flip CX1 CX1102"
                 ],
-                "boardname": "GALNAT360"
+                "boardname": "GALNAT360",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>"
             },
             {
                 "device": [
                     "Asus Chromebook CX1"
                 ],
-                "boardname": "GALTIC"
+                "boardname": "GALTIC",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>"
             },
             {
                 "device": [
                     "Asus Chromebook CX1400FKA"
                 ],
-                "boardname": "GALTIC360"
+                "boardname": "GALTIC360",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, battery)</a>"
             },
             {
                 "device": [
