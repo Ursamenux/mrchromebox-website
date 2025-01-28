@@ -749,6 +749,12 @@
             },
             {
                 "device": [
+                    "Asus Chromebook CX1101CMA"
+                ],
+                "boardname": "APELE"
+            },
+            {
+                "device": [
                     "HP Chromebook x360 12b-ca0"
                 ],
                 "boardname": "BLOOG"
