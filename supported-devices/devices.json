@@ -1484,6 +1484,13 @@
             },
             {
                 "device": [
+                    "Acer Chromebook 314",
+                    "Gateway Chromebook 314"
+                ],
+                "boardname": "PALUTENA"
+            },
+            {
+                "device": [
                     "Gateway Chromebook 15"
                 ],
                 "boardname": "PASARA"
