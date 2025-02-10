@@ -20,7 +20,9 @@ For Windows, [coolstar's site](https://coolstar.org/chromebook/windows.html) als
 ### I'm trying to exit Developer Mode, but when I press space to exit it says:
 "WARNING: TONORM prohibited by GBB_FORCE_DEV_SWITCH_ON" - how to I fix this?
 
-* The 'Set Boot Options (GBB Flags)' option of the Firmware Utility Script automatically sets the GBB Flag to force Developer Mode on when a non-default option is selected, to mitigate the problem of accidentally exiting Developer Mode and wiping your ChromeOS user data. To clear the GBB flags / reset them to factor default, simply re-run the Firmware Utility Script and choose the option to reset the GBB Flags to factory default.  You can also do this from a ChromeOS terminal with the following command: sudo /usr/share/vboot/bin/set_gbb_flags.sh 0x0 and then reboot
+* The 'Set Boot Options (GBB Flags)' option of the Firmware Utility Script automatically sets the GBB Flag to force Developer Mode on when a non-default option is selected, to mitigate the problem of accidentally exiting Developer Mode and wiping your ChromeOS user data. To clear the GBB flags / reset them to factor default, simply re-run the Firmware Utility Script and choose the option to reset the GBB Flags to factory default.  You can also do this from a ChromeOS terminal with the following command: `sudo futility --gbb --set --flags=0x0` and then reboot.<br>
+On older devices, the command is `sudo /usr/share/vboot/bin/set_gbb_flags.sh 0x0`
+
 
 ### How are the MrChromebox and chrultrabook projects related?
 
