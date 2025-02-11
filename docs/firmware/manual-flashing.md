@@ -13,7 +13,8 @@ The steps below assume you are flashing an image named `coreboot.rom`; substitut
 
 2. Flash your custom ROM
    * Backup your current firmware (just in case things go wrong):
-     `sudo ./flashrom -p internal -r backup.rom`
+     `sudo ./flashrom -p internal -r backup.rom` (AMD)
+     `sudo ./flashrom -p internal -r backup.rom --ifd -i bios` (Intel)
    * Extract your VPD from your backup:
          `./cbfstool backup.rom read -r RO_VPD -f vpd.bin`
    * Inject the VPD into your custom ROM:
@@ -26,6 +27,6 @@ The steps below assume you are flashing an image named `coreboot.rom`; substitut
        * `./cbfstool coreboot.rom add -n hwid -f hwid.txt -t raw`
    * Flash your custom firmware:
        * AMD devices: `sudo ./flashrom -p internal -w coreboot.rom`
-       * Intel devices: `sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom`
+       * Intel devices: `sudo ./flashrom -p internal --ifd -i bios -w coreboot.rom -N`
 3. Reboot
    * Assuming flashrom shows `success` at the end of the process, reboot.
