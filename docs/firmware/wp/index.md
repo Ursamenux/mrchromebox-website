@@ -24,7 +24,7 @@ On most early CR50 platforms, the CR50 sets the WP state to follow the battery s
 
 On some newer platforms, WP cannot be disabled by disconnecting the battery; instead there is an unpopulated jumper on the board which must be bridged.
 
-On all CR50 devices, it is also possible to change the WP state using the [closed-case debugging (CCD)](https://chromium.googlesource.com/chromiumos/platform/ec/+/cr50_stab/docs/case_closed_debugging_gsc.md) features of the CR50, along with a special USB-C debug cable (called a SuzyQable). See the CCD section below.
+On all CR50 devices, it is also possible to change the WP state using the [closed-case debugging (CCD)](https://chromium.googlesource.com/chromiumos/platform/ec/+/cr50_stab/docs/case_closed_debugging_gsc.md) features of the CR50, along with a special USB-C debug cable (called a SuzyQable). See the [CCD section under Disabling FW WP](/docs/firmware/wp/disabling.html#using-closed-case-debugging-ccd-using-a-suzyqable).
 
 ## Why Disable Firmware Write Protection?
 
