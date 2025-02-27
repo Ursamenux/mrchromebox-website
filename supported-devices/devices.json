@@ -1775,6 +1775,12 @@
             },
             {
                 "device": [
+                    "Acer Chromebook Spin 312 (CP312-1H, CP312-1HN)"
+                ],
+                "boardname": "CRAASKOV"
+            },
+            {
+                "device": [
                     "Acer Chromebook 511 (C736, C736T, C736L, C736LT)"
                 ],
                 "boardname": "CRAASKVIN"
