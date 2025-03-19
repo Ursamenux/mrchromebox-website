@@ -1944,7 +1944,8 @@
             },
             {
                 "device": [
-                    "Lenovo 100e Chromebook Gen 2 AMD"
+                    "Lenovo 100e Chromebook Gen 2 AMD",
+                    "Lenovo IdeaPad 3 Chromebook 11AST5"
                 ],
                 "boardname": "TREEYA"
             },
