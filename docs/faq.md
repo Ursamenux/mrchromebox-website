@@ -6,12 +6,24 @@ Read this page in its entirety (and search) before asking for help. If the answe
 
 ## General
 
+### Will my device run Linux or Windows?
+
+* Maybe. The MrChromebox project only provides system firmware for Intel/AMD x86_64 devices; it does not support ARM-based devices at all. It also does not provide or track OS support.
+
+How well a given device is able to run Linux/Windows depends largely on platform architecture, and how well that's supported by the OS. Windows support for Chromebooks depends largely on custom drivers for touchpad/touchscreen/audio written by [coolstar](https://coolstar.org/chromebook/windows-install.html). The Chrultrabook project maintains a [Supported Device list](https://docs.chrultrabook.com/docs/firmware/supported-devices.html) which gives Linux/Windows OS support status.
+
+For those interested in running ChromeOS Flex on an EOL device, the following applies:
+
+* Haswell Chromebooks - 100% functional<br>
+* Broadwell Chromebooks - 100% functional (exceptions: no built-in audio on BUDDY or SAMUS)<br>
+* Haswell/Broadwell Chromeboxes - 100% functional<br>
+* Baytrail/Braswell/Skylake devices - no built-in audio, otherwise fully functional. BT/USB audio works fine.<br>
+
 ### I want to buy a Chromebook to run Windows or Linux -- which should I buy?
 
-* Buying any Chromebook with the intention of running Windows or Linux is not a great idea. Many can't boot anything other than ChromeOS; Those that can boot Linux (or Windows) often have functional deficiencies -- DO NOT EXPECT EVERYTHING TO WORK OUT OF THE BOX. Older models may fair better compatibility wise, but there are still lots of caveats, and it's not recommended to buy a Chromebook as a cheap Linux device.
+* Buying any Chromebook with the intention of running Windows or Linux is not a great idea. Many can't boot anything other than ChromeOS; Those that can boot Linux (or Windows) often have functional deficiencies -- DO NOT EXPECT EVERYTHING TO WORK OUT OF THE BOX. Older models fair better compatibility wise, but there are still lots of caveats, and it's generally not recommended to buy a Chromebook as a cheap Linux device.
 
-That said, [the chrultrabook project's documentation](https://docs.chrultrabook.com/docs/firmware/supported-devices.html) provides the most up-to-date info on Linux/Windows compatibility.
-For Windows, [coolstar's site](https://coolstar.org/chromebook/windows.html) also provides compatibility info and driver downloads.
+That said, the Chrultrabook compatibility list linked above is your best, most up to date reference for OS support/compatibility.
 
 ### I just want to boot Linux from USB on my Chromebook, what do I need to do?
 
