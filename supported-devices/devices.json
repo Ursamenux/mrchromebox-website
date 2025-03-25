@@ -1529,14 +1529,14 @@
                     "Samsung Galaxy Chromebook Go"
                 ],
                 "boardname": "SASUKE",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, jumper)</a>, <a href=\"/images/wp/sasuke_wp_jumper.jpg\" class=\"internal\" title=\"sasuke_wp_jumper\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/sasuke_wp_jumper.jpg\" class=\"internal\" title=\"sasuke_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "SamsungGalaxy Chromebook Go 11"
                 ],
                 "boardname": "SASUKETTE",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ, jumper)</a>, <a href=\"/images/wp/sasukette_wp_jumper.png\" class=\"internal\" title=\"sasukette_wp_jumper\" target=\"_blank\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/sasukette_wp_jumper.png\" class=\"internal\" title=\"sasukette_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1585,6 +1585,13 @@
             },
             {
                 "device": [
+                    "Google Meet Series Two"
+                ],
+                "boardname": "CONSTITUTION",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ),</a>, <a href=\"/images/wp/intrepid_wp_jumper.jpg\" class=\"internal\" title=\"intrepid_wp_jumper\" target=\"_blank\">jumper)</a>"
+            },
+            {
+                "device": [
                     "Dell Latitude 5430 Chromebook"
                 ],
                 "boardname": "CROTA"
@@ -1603,7 +1610,7 @@
             },
             {
                 "device": [
-                    "Asus Chromebook Flip CX5 (CX5601)"
+                    "Asus Chromebook Flip CX5 [CX5601]"
                 ],
                 "boardname": "FELWINTER"
             },
@@ -1618,6 +1625,13 @@
                     "HP Chromebox Enterprise G4"
                 ],
                 "boardname": "GLADIOS"
+            },
+            {
+                "device": [
+                    "CTL Meet Compute System GQE20C"
+                ],
+                "boardname": "INTREPID",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/intrepid_wp_jumper.jpg\" class=\"internal\" title=\"intrepid_wp_jumper\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
