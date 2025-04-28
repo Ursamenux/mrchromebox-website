@@ -3,7 +3,24 @@
 
 
 
-## MrChromebox-2408.1 Release
+## MrChromebox-2503.0 Release
+
+(2025.04.27)
+
+This new release is based on the coreboot 25.03 tag (March 2025) and includes the following changes:
+
+ * Rebased on coreboot tag 25.03
+ * New edk2 branch (uefipayload_2502), rebased on upstream edk2-stable202502 tag
+ * Fixed battery indicator under Windows on Alderlake-N devices
+ * Changed display init on KIP
+ * Add support for coreboot setup engine to 10th-gen Chromeboxes and earlier
+     * Adds a new 'Platform Setup Menu' option under 'Advanced Configuration'
+     * Allows runtime configuration of many coreboot options
+     * Options available vary by platform, but all support setting the behavior when power lost/restored
+     * More options and support for Chromebooks will be added in the future
+
+
+ ## MrChromebox-2408.1 Release
 
 (2024.09.14)
 
