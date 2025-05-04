@@ -54,10 +54,13 @@ Let's get to it:
        * Then verify the download:
        * `sha1sum -c coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1`
    * The shellball firmware for the device
-     * As with the UEFI firmware above, the shellball ROM can be downloaded by concatenating the shellball base path with the device-specific filename:
-       * `wget <shellball base path>/shellball.<device name>.bin`
-       * Example for the Acer Chromebook 14 CB3-431 (EDGAR):
-       * `wget https://mrchromebox.tech/files/firmware/shellball/shellball.edgar.bin`
+      * A shellball ROM can be downloaded via the coreboot `crosfirmware.sh` script from a Linux terminal:
+        * `wget https://github.com/coreboot/coreboot/raw/refs/heads/main/util/chromeos/crosfirmware.sh`
+        * `bash crosfirmware.sh <board name in all lowercase>`
+        * Example for the Acer Chromebook 14 CB3-431 (EDGAR):
+          * `wget https://github.com/coreboot/coreboot/raw/refs/heads/main/util/chromeos/crosfirmware.sh`
+          * `bash crosfirmware.sh edgar`
+        * This will produce a shellball firmware image named `coreboot-Google_Edgar.<version>.bin`. It will not have a valid HWID and will need the GBB flags reset after flashing to the device.
 
 ::: tip
 If you're not sure which file to use for your device / don't know your device's board name, you can reference [the supported devices page](/docs/supported-devices.html).

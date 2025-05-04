@@ -74,17 +74,21 @@ So let's get to it:
     * The custom UEFI firmware for the device
       * If you were flashing the UEFI firmware when things went sideways, then that's the easiest way to proceed. You can download the UEFI firmware for your device by examining the [sources.sh file from the Firmware Utility Script GitHub repo](https://github.com/MrChromebox/scripts/blob/master/sources.sh). Simply concatenate the device-specific filename to the Full ROM base path:
         * `wget <Full ROM base path><device specific filename>`
-        * Example for the Acer Chromebook 14 CB3-431 (EDGAR)
+        * Example for the Acer Chromebook 14 CB3-431 (EDGAR):
+          (Note this URL is years old and not actually valid)
         * `wget https://mrchromebox.tech/files/firmware/full_rom/coreboot_tiano-edgar-mrchromebox_20180827.rom`
         * Don't forget to get the SHA1 file for verification:
         * `wget https://mrchromebox.tech/files/firmware/full_rom/coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1`
         * Then verify the download:
         * `sha1sum -c coreboot_tiano-edgar-mrchromebox_20180827.rom.sha1`
     * The shellball firmware for the device
-      * As with the UEFI firmware above, the shellball ROM can be downloaded by concatenating the shellball base path with the device-specific filename:
-        * `wget <shellball base path>/shellball.<device name>.bin`
+      * A shellball ROM can be downloaded via the coreboot `crosfirmware.sh` script from a Linux terminal:
+        * `wget https://github.com/coreboot/coreboot/raw/refs/heads/main/util/chromeos/crosfirmware.sh`
+        * `bash crosfirmware.sh <board name in all lowercase>`
         * Example for the Acer Chromebook 14 CB3-431 (EDGAR):
-        * `wget https://mrchromebox.tech/files/firmware/shellball/shellball.edgar.bin`
+          * `wget https://github.com/coreboot/coreboot/raw/refs/heads/main/util/chromeos/crosfirmware.sh`
+          * `bash crosfirmware.sh edgar`
+        * This will produce a shellball firmware image named `coreboot-Google_Edgar.<version>.bin`. It will not have a valid HWID and will need the GBB flags reset after flashing to the device.
 
 ::: tip
 If you're not sure which file to use for your device / don't know your device's board name, you can reference [the supported devices page](/docs/supported-devices.html).
