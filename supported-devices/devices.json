@@ -278,7 +278,8 @@
                 "device": [
                     "Toshiba Chromebook 2 (2014)"
                 ],
-                "boardname": "SWANKY"
+                "boardname": "SWANKY",
+                "wpMethod": "<a href=\"/images/wp/swanky_wp_screw.png\" class=\"internal\" title=\"swanky_wp_screw\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
