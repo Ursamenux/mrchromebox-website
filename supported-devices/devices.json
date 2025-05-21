@@ -1109,6 +1109,14 @@
             },
             {
                 "device": [
+                    "Avocor Series One Board 65"
+                ],
+                "boardname": "MOONBUGGY",
+                "rwLegacy": true,
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, jumper"
+            },
+            {
+                "device": [
                     "Samsung Galaxy Chromebook 2"
                 ],
                 "boardname": "NIGHTFURY"
@@ -1120,6 +1128,14 @@
                 "boardname": "NOIBAT",
                 "rwLegacy": true,
                 "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, <a href=\"/images/wp/Noibat_wp.png\" class=\"internal\" title=\"Noibat wp.png\" target=\"_blank\">jumper</a>"
+            },
+            {
+                "device": [
+                    "Avocor Series One Desk 27"
+                ],
+                "boardname": "SCOUT",
+                "rwLegacy": true,
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (SuzyQ)</a>, jumper"
             },
             {
                 "device": [
