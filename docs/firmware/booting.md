@@ -8,7 +8,7 @@ To do that's let's get familiar with the [edk2 (aka Tianocore)](https://www.tian
 
 <p align="center"> <img src="/images/edk2_boot_splash.png" alt="edk2 boot splash" width="500"/></p>
 
-The edk2 boot splash with the [coreboot logo](https://www.coreboot.org/Logo) (a European brown hare) will be the first thing you see when your device boots.
+The edk2 boot splash with the coreboot logo (a European brown hare) will be the first thing you see when your device boots.
 
 Press `[ESC]` when the prompt is shown to enter the boot options/settings menu, where you can select your boot device.
 

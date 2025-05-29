@@ -82,4 +82,6 @@ My personal coreboot, SeaBIOS, Tianocore, and EC firmware repositories, along wi
 [https://github.com/MrChromebox/edk2](https://github.com/MrChromebox/edk2)  
 [https://github.com/MrChromebox/scripts](https://github.com/MrChromebox/scripts)  
 
-These repos contain not only the source used to build the current firmware releases, but also the build scripts and configurations used as well. The only components not included are the various binary "blobs" which are not redistributable; if you want to build your own firmware, you have to extract these blobs from your existing factory firmware (there are instructions for doing so [on chromium.org](http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/upstream-coreboot-on-intel-haswell-chromebook); these are written for Haswell devices but apply more broadly).
+These repos contain not only the source used to build the current firmware releases, but also the build scripts and configurations used as well. 
+
+See [Compiling Your Own Firmware](/docs/support/compiling.md) for full info.

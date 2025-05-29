@@ -10,7 +10,7 @@ Read this page in its entirety (and search) before asking for help. If the answe
 
 * Maybe. The MrChromebox project only provides system firmware for Intel/AMD x86_64 devices; it does not support ARM-based devices at all. It also does not provide or track OS support.
 
-How well a given device is able to run Linux/Windows depends largely on platform architecture, and how well that's supported by the OS. Windows support for Chromebooks depends largely on custom drivers for touchpad/touchscreen/audio written by [coolstar](https://coolstar.org/chromebook/windows-install.html). The Chrultrabook project maintains a [Supported Device list](https://docs.chrultrabook.com/docs/firmware/supported-devices.html) which gives Linux/Windows OS support status.
+How well a given device is able to run Linux/Windows depends largely on platform architecture, and how well that's supported by the OS. Windows support for Chromebooks depends largely on custom drivers for touchpad/touchscreen/audio written by [coolstar](https://coolstar.org/chromebook/windows-install.html). The Chrultrabook project maintains a [Supported Device list](https://docs.chrultrabook.com/docs/devices.html) which gives Linux/Windows OS support status.
 
 For those interested in running ChromeOS Flex on an EOL device, the following applies:
 

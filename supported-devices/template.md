@@ -25,7 +25,7 @@ MrChromebox firmware only supports Intel/AMD x86_64 platform devices. Devices wh
 
 A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not imply any level of functionality when running an OS other than ChromeOS. Some devices/platforms are better supported in some Linux distros vs others. Some devices/platforms are better supported under Windows than others.
 
-The best resource for OS compatibility is the [chrultrabook Supported Devices Page](https://docs.chrultrabook.com/docs/firmware/supported-devices.html)
+The best resource for OS compatibility is the [chrultrabook Supported Devices Page](https://docs.chrultrabook.com/docs/devices.html)
 
 
 
