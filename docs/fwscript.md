@@ -99,41 +99,6 @@ In the screenshots above, only the script functions available for the device and
     **Requires firmware write-protect disabled:** `YES`
 
 
-*   **Remove ChromeOS Bitmaps**
-
-    This function removes the ChromeOS bitmap (image) files used to display the Developer Mode and Recovery boot screens, leaving you with a simple black screen with white terminal text -- much easier on the eyes, esp when booting in a darkened environment.
-
-    ![Developer Mode normal](/images/devmode_normal.png)  becomes  ![Developer Mode text only](/images/dev_no_bmp.png)
-
-    **Note:** ChromeOS updates might occasionally restore the missing bitmaps, so if you're still running ChromeOS you may need to re-run this function as needed.
-
-    Credit to Joshua Stein for bringing this to my attention [via his blog](https://jcs.org/notaweblog/2016/08/26/openbsd_chromebook/#removing-the-splash-screen) which I stumbled upon somehow.
-
-    **Supported Devices:** `All pre-Skylake/pre-ApolloLake ChromeOS devices running stock (or stock + RW_LEGACY) firmware`
-
-    **Requires firmware write-protect disabled:** `YES`
-
-
-*   **Restore ChromeOS Bitmaps**
-
-    This script function reverses the function above :)
-
-    **Supported Devices:** `All pre-Skylake/pre-ApolloLake ChromeOS devices running stock (or stock + RW_LEGACY) firmware`
-
-    **Requires firmware write-protect disabled:** `YES`
-
-
-*   **Restore Stock BOOT_STUB**
-
-    This script function will restore the stock BOOT_STUB for any device running a modified BOOT_STUB firmware. It will first attempt to use the built-in backup created by this script, and failing that, will download the firmware from a recovery image (a shellball ROM) and extract the stock BOOT_STUB from that. This option is only displayed on devices running BOOT_STUB firmware.
-
-    After restoring the stock BOOT_STUB, you will need to reboot and reinstall ChromeOS from the recovery media. You can also install the RW_LEGACY firmware if you're switching to it for some reason.
-
-    **Supported Devices:** `All Haswell, Broadwell, and Baytrail ChromeOS devices running modified BOOT_STUB firmware` (whether installed from this script or another)
-
-    **Requires firmware write-protect disabled:** `YES`
-
-
 *   **Restore Stock Firmware**
 
     This script function will restore the stock firmware, preferably from a backed-up copy on USB. For most devices, if a user-provided backup is not available, the script will download the firmware from a recovery image (a shellball ROM). For Chromeboxes, if the current fimware contains an embedded VPD region, it will be extracted and merged before flashing. These (device-specific) shellball ROMs have been modified to include a valid hardware ID (HWID), so ChromeOS updates will work normally. Support for flashing shellball ROMs for additional devices is planned for the near future.
