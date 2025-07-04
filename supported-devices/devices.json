@@ -331,7 +331,8 @@
                 "device": [
                     "Lenovo N22/N23/N42 Chromebook"
                 ],
-                "boardname": "REKS"
+                "boardname": "REKS",
+                "wpMethod": "<a href=\"/images/wp/Reks_wp_screw.png\" class=\"internal\" title=\"Reks_wp_screw.png\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
