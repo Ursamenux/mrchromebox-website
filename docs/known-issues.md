@@ -13,7 +13,7 @@ You should probably avoid buying any devices with severe issues, and consider se
 
 ### Minor Issues
 
-* Samsung Chromebox Series 3 (STUMPY): DisplayPort output is non-functional under Windows, and VGA output through the DVI port is non-functional.
+* Samsung Chromebox Series 3 (STUMPY): VGA output through the DVI port is completely non-functional; DisplayPort output is non-functional under Windows (but works fine at boot and under Linux).
 
 ## Firmware
 
